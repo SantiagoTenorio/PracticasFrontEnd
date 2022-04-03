@@ -1,0 +1,65 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <title>Hacer pedido</title>
+        <link rel="stylesheet" href="./Estilo pastelería.css">
+    </head>
+    <body>
+    <section class="fondo">
+        <h1>Bienvenido pastelería la gula, por favor, ingrese su orden</h1>
+    
+        <form action="pedido.js">
+        <label for="Nombre">Por favor, ingresa tu nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Ingresa tu nombre"><br>
+
+        <label for="Numero">Por favor, ingresa tu número</label><br>
+        <input type="número" id="Número" name="Número" placeholder="Ingresa tu número"><br>
+
+        <label for="Correo">Por favor, ingresa tu correo electrónico</label><br>
+        <input type="text" id="Correo" name="Correo" placeholder="Ingresa tu correo"><br>
+
+        <p>Selecciona tu pastel</p>
+        <select name="pastel" id="pastel">
+            <option value="chocolate">Chocolate</option>
+            <option value="mil hojas">Mil hojas</option>
+            <option value="frutas">Frutas</option>
+            <option value="fresa">Fresa</option>
+            <option value="tres leches">Tres leches</option>
+            <option value="rompope">Rompope</option>
+            <option value="queso y zarzamora">Queso y zarzamora</option>
+            <option value="tarte">Tarta de frutas</option>
+        </select>
+
+        <p>¿Te gustaría agregar un adorno a tu pastel?</p>
+        <input type="radio" id="no" name="adornosiono" value="no">
+        <label for="no">No</label><br>
+        <input type="radio" id="si" name="adornosiono" value="si">
+        <label for="si">Sí</label><br>
+
+        <p>¿Qúe adorno te gustaría agregar?</p>
+        <select name="adorno" id="adorno">
+            <option value="ninguno">Ninguno</option>
+            <option value="fondant">Fondant</option>
+            <option value="cobertura de chocolate">Cobertura de chocolate</option>
+            <option value="cobertura de fresa">Cobertura de fresa</option>
+            <option value="cobertura de vainilla">Cobertura de vainilla</option>
+            <option value="cobertura de frutas">Cobertura de frutas</option>
+            <option value="cobertura de mermelada">Cobertura de mermelada</option>
+            <option value="velas">Velas</option>
+        </select>
+
+        <br><br>
+
+        <label for="text">¿Tienes alguna instrucción especial para tu pedido?</label><br>
+        <input type="text" id="instrucción" name="instrucción" placeholder="Ingresa tu petición aquí">
+
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+        </form>
+    </section>
+    </body>

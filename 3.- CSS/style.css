@@ -1,0 +1,92 @@
+/*Navegación*/
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    text-decoration: none;
+    font-size: large;
+
+    width: 92%;
+    backdrop-filter: blur(16px) saturate(131%);
+    background-color: rgba(225, 225, 225, 0.4);
+}
+
+.navegacion-nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+/*Imagenes*/
+.logos {
+    opacity: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medico1 {
+    background-color: dodgerblue;
+}
+
+.rigth {
+    float: right;
+}
+
+/*Letras*/
+.bold {
+    font-weight: bold ;
+    color: dodgerblue;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.none {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.titulo {
+    color: dodgerblue;
+    font-size: 60px;
+    text-align: center;
+}
+
+.size {
+    font-size: 35px;
+}
+  
+p{
+    font-size: 20px;
+}
+/*Footer*/
+.footer {
+    background-color: aliceblue;
+}
+
+.footer1{
+    vertical-align: bottom;
+    align-items: center;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60%;
+    padding-right: 5%;
+}
+
+.footer3 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+  }
